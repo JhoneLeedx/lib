@@ -16,6 +16,7 @@ import java.lang.reflect.Method;
 
 public class ViewUtils {
 
+
     public static void inject(Activity activity) {
         inject(new ViewFinder(activity), activity);
     }
